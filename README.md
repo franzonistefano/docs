@@ -60,7 +60,9 @@ cy.contains('Enter').click()
 ### Url
 
 Check if url contains specific word inside the path
+```
 cy.url().should('include', 'homepage')
+```
 
 <a name="should"></a>
 ### Should
