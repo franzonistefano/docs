@@ -35,9 +35,13 @@ cy.visit('http://localhost:3000/')
 <a name="get"></a>
 ### Get
 
-Get element by id
+Get element by id or by css class that define the element
 ```
 cy.get('#email').type('fake@email.com').should('have.value', 'fake@email.com')
+```
+or
+```
+cy.get('.action-email').type('fake@email.com').should('have.value', 'fake@email.com')
 ```
 
 <a name="type"></a>
