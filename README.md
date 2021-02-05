@@ -71,5 +71,17 @@ cy.url().should('include', 'homepage')
 <a name="should"></a>
 ### Should
 
+```
+...should('have.value', 'some value')
+```
+
+```
+...should('include', 'something')
+```
+
+```
+...should('exist')
+```
+
 
 
