@@ -3,18 +3,28 @@
 # **Table of Contents**
 
 - [Cypress](#cypress)
+  - [Usefull Tool](#cypress_tool)
+  - [Run Cypress](#cypress_run)
+  - [Methods](#cypress_commands)
 
 ---
 
 # Cypress
+<a name="cypress"></a>
+
+## Tools
+<a name="cypress_tool"></a>
+
+- [Testing Playground](https://chrome.google.com/webstore/detail/testing-playground/hejbmebodbijjdhflfknehhcgaklhano)
 
 ## Run cypress
+<a name="cypress_run"></a>
 
 ```
 node_modules/.bin/cypress open
 ```
 ## Commands
-<a name="cypress"></a>
+<a name="cypress_commands"></a>
 
 - [visit](#visit)
 - [get](#get)
