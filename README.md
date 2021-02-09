@@ -26,12 +26,25 @@ node_modules/.bin/cypress open
 ## Commands
 <a name="cypress_commands"></a>
 
+- [findByRole](#findByRole)
 - [visit](#visit)
 - [get](#get)
 - [type](#type)
 - [contains](#contains)
 - [url](#url)
 - [should](#should)
+
+
+<a name="findByRole"></a>
+### findByRole
+
+> Use **Testing Playground** tool to get the info to pass inside the findByRole
+
+Find dom element by role
+
+```
+cy.findByRole('checkbox | link | textbox | img ...', {name: /whatever there are inside the element/i})
+```
 
 <a name="visit"></a>
 ### Visit
